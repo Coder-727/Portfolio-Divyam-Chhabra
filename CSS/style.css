@@ -1,0 +1,19 @@
+body{
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+    margin: 0;
+    height: 100vh;
+    background-size: cover;
+}
+.name{
+    color: white !important;
+}
+.profile_img {
+    width: 400px; 
+    height: 400px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 5px solid #fff; 
+}
+.skills h3 {
+    color: white !important;
+}
