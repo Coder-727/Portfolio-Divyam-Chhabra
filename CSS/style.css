@@ -17,3 +17,34 @@ body{
 .skills h3 {
     color: white !important;
 }
+.card-img {
+    max-height: 250px;
+    width: 100%; 
+    object-fit: contain; 
+    display: block; 
+    margin: 0 auto; 
+}
+.carousel-inner {
+    position: relative;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    z-index: 10;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+}
