@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-    <section class="header">
+    <section class="header" id="headerID">
     <div class="container">
         <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
           <div class="col-md-3 mb-2 mb-md-0">
@@ -18,16 +18,16 @@
           </div>
     
           <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="#" class="nav-link px-2 text-light">Home</a></li>
-            <li><a href="#" class="nav-link px-2 text-light">Skills</a></li>
-            <li><a href="#" class="nav-link px-2 text-light">Projects</a></li>
-            <li><a href="#" class="nav-link px-2 text-light">Contact Me</a></li>
+            <li><a href="#heroId" class="nav-link px-2 text-light">Home</a></li>
+            <li><a href="#SkillsID" class="nav-link px-2 text-light">Skills</a></li>
+            <li><a href="#ProjectsID" class="nav-link px-2 text-light">Projects</a></li>
+            <li><a href="#ContactId" class="nav-link px-2 text-light">Contact Me</a></li>
           </ul>
     
         </header>
       </div>
     </section>
-    <section class="hero">
+    <section class="hero" id="heroId">
       <div class="container col-xxl-8 px-4 py-5">
           <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div class="col-10 col-sm-8 col-lg-6">
@@ -45,7 +45,7 @@
   </section>
 
     
-    <section class="skills">
+    <section class="skills" id="SkillsID">
       <div class="container px-4 py-5" id="icon-grid">
           <h2 class="pb-2 border-bottom text-light">Skills</h2>
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
@@ -136,13 +136,13 @@
           </div>
       </div>
   </section>
-  <section class="projects">
+  <section class="projects" id="ProjectsID">
     <div class="container px-4 py-5" id="icon-grid">
-        <h2 class="pb-2 border-bottom">Projects</h2>
+        <h3 class="pb-2 border-bottom">Projects</h3>
     
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 py-5">
           <div class="col d-flex align-items-start">
-            <div class="card bg-dark text-white" style="width: 18rem;">
+            <div class="card bg-dark text-white fixed-height-card" style="width: 18rem;">
                 <div id="carouselExampleIndicators0" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators0" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -175,13 +175,13 @@
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">Cab Service Application - Flutter</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <p class="card-text">A Cab Service application for both users and drivers for booking and live tracking using GoogleMaps API.</p>
+                  <a href="https://github.com/Coder-727/CabService-Flutter" class="btn btn-primary" target="_blank">Check it out!</a>
                 </div>
               </div>
           </div>
           <div class="col d-flex align-items-start">
-            <div class="card bg-dark text-white" style="width: 18rem;">
+            <div class="card bg-dark text-white fixed-height-card" style="width: 18rem;">
                 <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -210,14 +210,14 @@
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Cab Service API - Django</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <p class="card-text">API created using Django for all endpoints of users,rides,cabs in CabService Application and connected to a PostgreSQL database server.</p>
+                    <a href="https://github.com/Coder-727/CabService-Django" class="btn btn-primary" target="_blank">Check it out!</a>
                 </div>
             </div>
         </div>
         
           <div class="col d-flex align-items-start">
-            <div class="card bg-dark text-white" style="width: 18rem;">
+            <div class="card bg-dark text-white fixed-height-card" style="width: 18rem;">
                 <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -246,13 +246,13 @@
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">Shop App - Flutter</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <p class="card-text">A shopping app with state management implemented in Flutter. Items cab be views, added and removed from cart.</p>
+                  <a href="https://github.com/Coder-727/Shop-App-Flutter" class="btn btn-primary" target="_blank">Check it out!</a>
                 </div>
               </div>
           </div>
           <div class="col d-flex align-items-start">
-            <div class="card bg-dark text-white" style="width: 18rem;">
+            <div class="card bg-dark text-white fixed-height-card" style="width: 18rem;">
                 <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -278,13 +278,13 @@
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">Weather App - Flutter</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <p class="card-text">A weather app that updates live weather using API and has additional information such as hourly forecast, pressure and humidity.</p>
+                  <a href="https://github.com/Coder-727/Weather-App-Flutter" class="btn btn-primary" target="_blank">Check it out!</a>
                 </div>
               </div>
           </div>
           <div class="col d-flex align-items-start">
-            <div class="card bg-dark text-white" style="width: 18rem;">
+            <div class="card bg-dark text-white fixed-height-card" style="width: 18rem;">
                 <div id="carouselExampleIndicators4" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -293,13 +293,13 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="./assets/images/Django-Project.png" class="d-block w-100 card-img" alt="...">
+                            <img src="./assets/images/rock_paper_scissors.png" class="d-block w-100 card-img" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="./assets/images/Django-Project (2).png" class="d-block w-100 card-img" alt="...">
+                            <img src="./assets/images/rock_paper_scissors (2).png" class="d-block w-100 card-img" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="./assets/images/Django-Project (3).png" class="d-block w-100 card-img" alt="...">
+                            <img src="./assets/images/rock_paper_scissors (3).png" class="d-block w-100 card-img" alt="...">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">
@@ -313,13 +313,13 @@
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">Rock Paper Scissors - HTML/CSS/JS</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <p class="card-text">A rock paper scissors game on a website i.e. player vs computer. completely fair and random.</p>
+                  <a href="https://coder-727.github.io/Rock-Paper-Scissors/" class="btn btn-primary" target="_blank">Check it out!</a>
                 </div>
               </div>
           </div>
           <div class="col d-flex align-items-start">
-            <div class="card bg-dark text-white" style="width: 18rem;">
+            <div class="card bg-dark text-white fixed-height-card" style="width: 18rem;">
                 <div id="carouselExampleIndicators5" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -328,13 +328,13 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="./assets/images/Django-Project.png" class="d-block w-100 card-img" alt="...">
+                            <img src="./assets/images/grocery_billing.png" class="d-block w-100 card-img" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="./assets/images/Django-Project (2).png" class="d-block w-100 card-img" alt="...">
+                            <img src="./assets/images/grocery_billing (2).png" class="d-block w-100 card-img" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="./assets/images/Django-Project (3).png" class="d-block w-100 card-img" alt="...">
+                            <img src="./assets/images/grocery_billing (3).png" class="d-block w-100 card-img" alt="...">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide="prev">
@@ -348,13 +348,13 @@
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">Grocery Billing System - Python</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <p class="card-text">A console based (no GUI) Grocery billing System for both customers to shop items and admin to manage inventory.</p>
+                  <a href="https://github.com/Coder-727/Grocery-Billing-System" class="btn btn-primary" target="_blank">Check it out!</a>
                 </div>
               </div>
           </div>
           <div class="col d-flex align-items-start">
-            <div class="card bg-dark text-white" style="width: 18rem;">
+            <div class="card bg-dark text-white fixed-height-card" style="width: 18rem;">
                 <div id="carouselExampleIndicators6" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -363,13 +363,13 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="./assets/images/Django-Project.png" class="d-block w-100 card-img" alt="...">
+                            <img src="./assets/images/UniCon.png" class="d-block w-100 card-img" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="./assets/images/Django-Project (2).png" class="d-block w-100 card-img" alt="...">
+                            <img src="./assets/images/UniCon (2).png" class="d-block w-100 card-img" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="./assets/images/Django-Project (3).png" class="d-block w-100 card-img" alt="...">
+                            <img src="./assets/images/UniCon (3).png" class="d-block w-100 card-img" alt="...">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide="prev">
@@ -383,13 +383,13 @@
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">UniCon - Android Studio</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <p class="card-text">A native android unit converter app that converts kgs to pounds developed using Java in Android Stuio.</p>
+                  <a href="https://github.com/Coder-727/UniCon" class="btn btn-primary" target="_blank">Check it out!</a>
                 </div>
               </div>
           </div>
           <div class="col d-flex align-items-start">
-            <div class="card bg-dark text-white" style="width: 18rem;">
+            <div class="card bg-dark text-white fixed-height-card" style="width: 18rem;">
                 <div id="carouselExampleIndicators7" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -398,13 +398,13 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="./assets/images/Django-Project.png" class="d-block w-100 card-img" alt="...">
+                            <img src="./assets/images/Portfolio.png" class="d-block w-100 card-img" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="./assets/images/Django-Project (2).png" class="d-block w-100 card-img" alt="...">
+                            <img src="./assets/images/Portfolio (2).png" class="d-block w-100 card-img" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="./assets/images/Django-Project (3).png" class="d-block w-100 card-img" alt="...">
+                            <img src="./assets/images/portfolio3.png" class="d-block w-100 card-img" alt="...">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide="prev">
@@ -418,13 +418,30 @@
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">Portfolio - HTML/CSS/JS</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <p class="card-text">My own Portfolio showcasing my skills and projects and how to reach me, P.S You are seeing this on it.</p>
+                  <a href="https://coder-727.github.io/Portfolio-Divyam-Chhabra/" class="btn btn-primary" target="_blank">Check it out!</a>
                 </div>
               </div>
           </div>
         </div>
       </div>
+  </section>
+
+  <section class="contact" id="ContactId">
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex flex-column align-items-start">
+          <span class="mb-2 text-body-secondary pb-2"><strong>Divyam Chhabra</strong></span>
+          <span class="mb-2 text-body-secondary pb-2"><img src="./assets/images/phone.jpg" height="30px" alt="">   +91 9896081916</span>
+          <span class="mb-2 text-body-secondary pb-2"><img src="./assets/images/mail.jpeg" height="30px" alt="">   divi.pnp@gmail.com</span>
+        </div>
+  
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-body-secondary" href="#"><img src="./assets/images/linkedIn.jpg" height="50px" alt=""><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><img src="./assets/images/GitHub-logo.png" height="50px" alt=""><use xlink:href="#instagram"></use></svg></a></li>
+        </ul>
+      </footer>
+    </div>
   </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
