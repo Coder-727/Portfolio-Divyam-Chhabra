@@ -48,3 +48,30 @@ body{
     top: 0;
     bottom: 0;
 }
+.fixed-height-card {
+    height: 400px;
+    overflow: hidden; 
+  }
+  
+  .fixed-height-card .carousel-inner {
+    max-height: 200px; 
+    overflow: hidden; 
+  }
+  
+  .fixed-height-card .card-body {
+    height: calc(100% - 200px); 
+    overflow-y: auto; 
+  }
+
+  .projects h3{
+    color: white !important;
+  }
+  .footer{
+    color: white !important;
+  }
+  .contact span{
+    color: white !important;
+  }
+  .contact .bi, .contact svg {
+    color: white !important;
+  }
